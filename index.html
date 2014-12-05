@@ -17,15 +17,15 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css-->
     <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
+
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+
 </head>
     <body>
         <div class="encabezado">
             <p id="left"><b>Cognits Blog</b></p>
-            <p id="rightsearch">Home</p>
+            <a href="file:///home/hp/Escritorio/frontend-blog/index.html"><p id="rightsearch">Home</a></p>
             <p id="righthome">Search</p>
         </div>
         <div class="titular">
@@ -35,26 +35,69 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css-->
             </div>
         </div>
         <br><br/>
-        <div class="blogger">
+        <div class="blogmost">
+            <br><br/>
+            <p style="font-family:Arial;font-size:25;color:Gray"><b>Dejanos Tu Comentario</b></p>
+            <br><br/>
+            <form class="forms">
+            Coment: <input type="text" name="message" value="Coment">
+            </form>
+            <br><br/>
+            <button class="listo">Listo</button><br/>
+        </div>
+        <div class="blogmost2"></div>
+        <div class="blogmost3"></div>
+        <div class="blogger" style="cursor:pointer">
             <p style="font-size:28px"><b>Fifth Generation of Computers</b></p>
             <img id ="imgpc" src="/home/hp/Escritorio/frontend-blog/images/computer.jpg">
             <p id="next"><b>Tecnology in the Future</b></p>
             <br><br/>
-            <p class="posted">Posted by Cognits Student, Novienbre 10,2014</p>
+                <div id ="postpc" class="posts"></div>
             <br><br/>
-            <form>
+            <p class="posted">Posted by <span style="color:#0D81CA">Cognits Student</span>, Noviembre 10,2014</p>
+            <br>Comments:<br/>
+            <div id="messages"></div>
+            <br><br/>
+        </div>
+        <br><br/>
+        <div class="blogger2" style="cursor:pointer">
+            <p id="cajeroalineacion"style="font-size:28px"><b>Conozca el Cajero Electrónico del Futuro y otros Adelantos</b></p>
+            <img id="imgcajero" src="http://4.bp.blogspot.com/_XYcZlISczqY/TFmlqFQ1IYI/AAAAAAAABxw/QUddCITrYTo/s1600/Captura+de+pantalla+2010-08-04+a+las+12.33.34.png">
+            <br><br/>
+                <div id="postcajero" class="posts2">
+                </div>
+            <br><br/>    
+            <p class="posted">Posted by <span style="color:#0D81CA">Cognits Student</span>, Noviembre 10,2014</p>     
+            <br><br/>
+        </div>
+        <br><br/>
+
+        <!--Inicia el Tercer Post-->
+        <div class="blogger3" style="cursor:pointer">
+            <p style="font-size:28px"><b>Grace (Lenguaje de programación)</b></p>
+            <img id ="imggrace" src="http://3.bp.blogspot.com/_sV71gktzoOo/TCMvzO01AxI/AAAAAAAAAAk/EBLv7pCg4q0/s320/wordpress-shortcode.png">
+            <br><br/>
+                <div id ="postgrace" class="posts3"></div>
+            <br><br/>
+            <p class="posted">Posted by <span style="color:#0D81CA">Cognits Student</span>, Noviembre 10,2014</p>
+            <br><br/>
+        </div>
+        <br><br/>
+        <button id="botonotropost2"> 4--Older Posts </button>
+        <button id="botonotropost">Older Posts --></button>
+        <br><br/>
+
+
+            <!--<form>
                 <input type="text" name="coment" value="" placeholder="Comment here !">
             </form>
-            <button class="button">Comment</button>
-            <br><br/>
-        <div class="posts"></div>
-        </div>
-        <div class="line">
-        </div>
+            <button class="button">Comment</button>-->
+        <!--<div class="line">
+        </div> -->
 
     <!-- Bootstrap core JavaScript
     ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Placed at the end of the document so the pages load faster -->  
     <script src="js/libs/jquery-2.1.1.js"></script>
     <script src="js/script.js"></script>
     <script src="js/libs/bootstrap.js"></script>

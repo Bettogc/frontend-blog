@@ -1,9 +1,14 @@
 {
-  "posts": [
-    {
-      "title": "Estudiantes de @cognits aprenden a programar!",
-      "date:" "2014,11,09"
-      "content:" "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeneancommodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnisdis parturient montes, nascetur ridiculus mus. Donec quam felis, ultriciesnec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enimjusto, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum feliseu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementumsemper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitoreu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverraquis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorperultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus egetcondimentum rhoncus, sem quam semper libero, sit amet adipiscing sem nequesed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatisfaucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt.Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,"
-    }
-  ]
+   "posts": [
+        {
+            "content": "La firma buscará “alternativas estratégicas” para su área de fabricación de PC, dispositivos móviles y de almacenamiento Hewlett-Packard, la mayor fabricante de computadores del mundo, anunció que podría dividirse en dos compañías para diferenciar la parte que diseña equipos de la que elabora software. Sus directivos autorizaron la “exploración de alternativas estratégicas” para el área de fabricación de PC, dispositivos móviles y de almacenamiento, informaron los blogs especializados en tecnología. “El negocio de la venta de computadores tiene muy poco margen de ganancia debido a la gran competencia que hay en el mercado, por lo que la empresa estaría más interesada en enfocarse en los servicios”, indicó Fayerwayer. Además, anunció que “suspenderá las operaciones para dispositivos con WebOS en el TouchPad y en teléfonos con ese sistema operativo que muchos veían con potencial de competir con el iOS de Apple y Android de Google."
+        },
+        {
+        	"content2":"Utilizar la tecnología bancaria en épocas de la nube no tiene por qué ser una pesadilla ni ser intimidante. EL TIEMPO estuvo en Shenzehen, China, en los cuarteles generales de la empresa Huawei, para mostrarles cómo puede ser, en unos años, su relación con su banco. La Huawei eSpace Virtual Teller Machine o VTM es una solución de banca remota que básicamente funciona como una oficina virtual abierta las 24 horas en la que es opcional la asistencia humana. Dotada de routing inteligente, tecnología de colaboración en la nube y una gran capacidad para ahorrar ancho de banda, el VTM es una solución bancaria como ninguna otra, ya que permite a un cliente realizar una serie de trámites que van desde llenar una aplicación hasta imprimir su propia tarjeta débito, en cuestión de minutos. Pero si se requiere hablar con alguien, tampoco hay problema, porque el VTM cuenta con un sistema de comunicación mediante video en Alta Definición, por lo que la ayuda siempre está a un clic de distancia."
+        },
+        {
+        	"content3":"Grace es un nuevo lenguaje de programación en desarrollo, creado principalmente con fines educativos. El diseño del lenguaje se inició en 2010 y la actual versión de la especificación es 0.353."
+        }
+    ]
 }
+
