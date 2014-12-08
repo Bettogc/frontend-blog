@@ -50,9 +50,20 @@ $(document).ready(function () {
     $('.blogger3').hide('slide');
   });
 
-    $('button').click(function() {
+    $('.listo').click(function() {
       var Listo = $("input[name=message]").val();
-        $('#messages').append("<div class='divscomment'>"+Listo+"</div>");
-        $('Listo').value="";
+        $('.messages').append("<div class='divscomment'>"+Listo+"</div>");
+        $('.listo').val("");
     });
 
+    $('.listo1').click(function() {
+          var Listo1 = $("input[name=message2]").val();
+            $('.messages1').append("<div class='divscomment'>"+Listo1+"</div>");
+            $('Listo').value="";
+        });
+
+     $('.listo1').click(function() {
+        var Listo1 = $("input[name=message3]").val();
+          $('.messages1').append("<div class='divscomment'>"+Listo1+"</div>");
+          $('Listo').value="";
+      });

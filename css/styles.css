@@ -150,8 +150,8 @@ form{
 /*--------------------------------------------
 --------------------------------------------*/
 #postpc{
-	width: 400px;
-	height: 350px;
+	width: 80%;
+	height: 350%;
 	margin-left: 2%;
 }
 
@@ -178,9 +178,9 @@ form{
 /*--------------------------------------------
 --------------------------------------------*/
 #postcajero{
-	width: 400px;
-	height: 350px;
-	margin-left: 210px;
+	width: 80%;
+	height: 350%;
+	margin-left: 11%;
 	margin-top: -12px;
 }
 
@@ -190,7 +190,7 @@ form{
 	font-family: Arial;
 	color: black;
 	background-color: white;
-	width: 100%;
+	width: 50%;
 	height: 50%;
 	text-align: justify;
 }
@@ -267,7 +267,7 @@ form{
 	border: 1px solid black;
 	float: left;
 	border-radius: 2%;
-	margin-top: 10%;
+	margin-top: 22%;
 }
 /*--------------------------------------------
 --------------------------------------------*/
@@ -292,7 +292,7 @@ form{
 }
 /*--------------------------------------------
 --------------------------------------------*/
-#messages {
+.messages {
     font-size: 14px;
 	font-family: Garamond, Times, Serif;
 	border: 1px solid gray;
@@ -301,4 +301,20 @@ form{
 --------------------------------------------*/
 .divscomment{
 	border: 1px solid gray;
+}
+/*--------------------------------------------
+--------------------------------------------*/
+form{
+	width: 625px;
+	margin: 200px auto;
+}
+
+#searchbar{
+	width: 425px;
+	float: left; padding: 20px 150px 20px 40px;
+	background: #ededed url(images/bar-bg.png) repeat-x;
+	border: 3px solid #c7c7c7;
+	border-radius: 100px -moz-border-radius: 100px; -webkit-border-radius: 100px;
+	font: italic 54px Georgia; color: #898989;
+	outline: none;
 }

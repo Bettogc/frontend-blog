@@ -23,11 +23,23 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css-->
 
 </head>
     <body>
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////   ENCABEZADO       ////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <div class="encabezado">
             <p id="left"><b>Cognits Blog</b></p>
             <a href="file:///home/hp/Escritorio/frontend-blog/index.html"><p id="rightsearch">Home</a></p>
             <p id="righthome">Search</p>
+            <form action="" metod="get">
+                <fieldset>
+                    <input type="text" id="searchbar"/>
+                    <input type="submit" value="Search" id="searchbtn"
+                </fieldset>
+            </form>
         </div>
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////   TITULAR       ////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <div class="titular">
             <p id="titulo" class="margentxt"><b>Cognits Blog</b></p>
             <div class="martxt2">
@@ -35,18 +47,33 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css-->
             </div>
         </div>
         <br><br/>
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////   AREA COMENTARIOS 1   //////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <div class="blogmost">
             <br><br/>
             <p style="font-family:Arial;font-size:25;color:Gray"><b>Dejanos Tu Comentario</b></p>
             <br><br/>
             <form class="forms">
-            Coment: <input type="text" name="message" value="Coment">
+            Coment: <input type="text" name="message" value=" ">
             </form>
             <br><br/>
             <button class="listo">Listo</button><br/>
         </div>
-        <div class="blogmost2"></div>
+        <div class="blogmost2">
+            <br><br/>
+            <p style="font-family:Arial;font-size:25;color:Gray"><b>Dejanos Tu Comentario</b></p>
+            <br><br/>
+            <form class="forms">
+            Coment1: <input type="text" name="message2" value="">
+            </form>
+            <br><br/>
+            <button class="listo1">Listo</buton><br>
+        </div>
         <div class="blogmost3"></div>
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////   1ER BLOG     ////////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <div class="blogger" style="cursor:pointer">
             <p style="font-size:28px"><b>Fifth Generation of Computers</b></p>
             <img id ="imgpc" src="/home/hp/Escritorio/frontend-blog/images/computer.jpg">
@@ -56,23 +83,29 @@ la estructura correta y guardar TODO tu CSS en el archivo styles.css-->
             <br><br/>
             <p class="posted">Posted by <span style="color:#0D81CA">Cognits Student</span>, Noviembre 10,2014</p>
             <br>Comments:<br/>
-            <div id="messages"></div>
+            <div class="messages"></div>
             <br><br/>
         </div>
         <br><br/>
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////   2DO BLOG       //////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <div class="blogger2" style="cursor:pointer">
             <p id="cajeroalineacion"style="font-size:28px"><b>Conozca el Cajero Electrónico del Futuro y otros Adelantos</b></p>
             <img id="imgcajero" src="http://4.bp.blogspot.com/_XYcZlISczqY/TFmlqFQ1IYI/AAAAAAAABxw/QUddCITrYTo/s1600/Captura+de+pantalla+2010-08-04+a+las+12.33.34.png">
             <br><br/>
-                <div id="postcajero" class="posts2">
-                </div>
+            <div id="postcajero" class="posts2">
+            </div>
             <br><br/>    
             <p class="posted">Posted by <span style="color:#0D81CA">Cognits Student</span>, Noviembre 10,2014</p>     
+            <br>Comments:<br/>
+            <div class="messages1"></div>
             <br><br/>
         </div>
         <br><br/>
-
-        <!--Inicia el Tercer Post-->
+        <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ////////////////////////////////////////////////////////////   3ER BLOG       //////////////////////////////////////////////////////
+        //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
         <div class="blogger3" style="cursor:pointer">
             <p style="font-size:28px"><b>Grace (Lenguaje de programación)</b></p>
             <img id ="imggrace" src="http://3.bp.blogspot.com/_sV71gktzoOo/TCMvzO01AxI/AAAAAAAAAAk/EBLv7pCg4q0/s320/wordpress-shortcode.png">
