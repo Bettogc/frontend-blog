@@ -92,7 +92,7 @@ $(document).ready(function () {
     $('.blogger5').toggle('slow');
   });
 
-    $('#botonotropost2').click(function(){
+  $('.botonotropost2').click(function(){
     $('.busqueda').hide();
     $('.blogger3').hide('slide');
     $('.blogger2').show('slide');
@@ -112,7 +112,7 @@ $(document).ready(function () {
   });
 
     $('.listo').click(function() {
-      var Listo = $("input[name=message]").val();
+        var Listo = $("input[name=message]").val();
         $('.messages').append("<div class='divscomment'>"+Listo+"</div>");
     });
 
@@ -137,19 +137,7 @@ $(document).ready(function () {
       });
 
 
-   $('.righthome').click(function(){
-    $('.busqueda').toggle('slide');
+   $('#righthome').click(function(){
+    $('#busqueda').toggle('slide');
    });
 
-$.expr[':'].icontains = function(obj, index, meta, stack){
-    return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0;
-  };
-    $(document).ready(function(){  
-      $('#target').keyup(function(){
-       buscar = $(this).val();
-       $('.lista p').removeClass('resaltar');
-        if(jQuery.trim(buscar) != ''){
-         $(".lista p:icontains('" + buscar + "')").addClass('resaltar');
-        }
-    });
-  });

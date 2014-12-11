@@ -17,8 +17,9 @@
         <link href="css/styles.css" rel="stylesheet">
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+
     </head>
-    <body>
+    <body background="http://todoimagenes3d.com/wp-content/uploads/images/9c/3d-blanco.jpg">
         <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
         ////////////////////////////////////////////////////////////   ENCABEZADO       ////////////////////////////////////////////////////
         //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
@@ -26,13 +27,13 @@
             <div class="encabezado">
                 <p class="left"><b>Cognits Blog</b></p>
                 <a href="file:///home/hp/Escritorio/frontend-blog/index.html"><p class="rightsearch">Home</a></p>
-                <p class="righthome">Search</p>
+                <p id="righthome">Search</p>
             </div>
             <!--/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
             ////////////////////////////////////////////////////////////   TITULAR       ////////////////////////////////////////////////////
             //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////-->
             <div class="titular">
-                <div class="busqueda">
+                <div id="busqueda">
                     <form>
                         Búsqueda: <input id="target" type="text" name="buscador" value="" placeholder="Search">
                     </form>
@@ -50,7 +51,7 @@
                 <p class="coments" style="font-family:Arial;font-size:25;color:Gray"><b>Dejanos Tu Comentario</b></p>
                 <br><br/>
                 <form class="forms">
-                Comenta: <input type="text" name="message" value=" ">
+                Comenta: <input type="text" name="message" value="">
                 </form>
                 <br><br/>
                 <button class="listo">Listo</button><br/>
@@ -103,7 +104,7 @@
                 <img class ="imgpc" src="images/computer.jpg">
                 <p class="next"><b>Tecnology in the Future</b></p>
                 <br><br/>
-                <div class ="postpc posts"></div>
+                <div class ="posts"></div>
                 <br><br/>
                 <p class="posted">Posted by <span style="color:#0D81CA">Cognits Student</span>, Noviembre 10,2014</p>
                 <br>Comments:<br/>
@@ -118,7 +119,7 @@
                 <p class="cajeroalineacion"style="font-size:28px"><b>Conozca el Cajero Electrónico del Futuro y otros Adelantos</b></p>
                 <img class="imgcajero" src="http://4.bp.blogspot.com/_XYcZlISczqY/TFmlqFQ1IYI/AAAAAAAABxw/QUddCITrYTo/s1600/Captura+de+pantalla+2010-08-04+a+las+12.33.34.png">
                 <br><br/>
-                <div class="postcajero posts2">
+                <div id="postcajero"class="posts2">
                 </div>
                 <br><br/>    
                 <p class="posted">Posted by <span style="color:#0D81CA">Cognits Student</span>, Noviembre 10,2014</p>     
@@ -174,10 +175,10 @@
             </div>
 
             <br><br/>
-            <button class="botonotropost2"> 4--Older Posts </button>
-            <button class="botonotropost">Older Posts --></button>
+            <button class="botonotropost2"> 🔙 Back Posts </button>
+            <button class="botonotropost" >Older Posts 🔜</button>
             <br><br/>
-
+        </ul>
 
             <!--<form>
                 <input type="text" name="coment" value="" placeholder="Comment here !">
@@ -195,8 +196,35 @@
         <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
         <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
         <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="http://code.jquery.com/jquery-latest.min.js"
+               type="text/javascript"></script>
+
+
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script> 
+
+ <script type='text/javascript' >
+    $.expr[':'].icontains = function(obj, index, meta, stack){
+    return (obj.textContent || obj.innerText || jQuery(obj).text() || '').toLowerCase().indexOf(meta[3].toLowerCase()) >= 0;
+    };
+    $(document).ready(function(){   
+        $('#target').keyup(function(){
+                     buscar = $(this).val();
+                     $('.lista div').removeClass('resaltar');
+                            if(jQuery.trim(buscar) != ''){
+                               $(".lista div:icontains('" + buscar + "')").addClass('resaltar');
+                            }
+            });
+    });   
+ </script> 
+
+<style>
+    .resaltar{background-color:#ffe8a4;}
+</style> 
+
       </body>
     </html>
 
 
-    next
+
+
+
